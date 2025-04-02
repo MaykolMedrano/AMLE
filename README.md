@@ -36,10 +36,11 @@ En este repositorio encontrarás:
 
 ### Datos del Estudiante
 
-- **Nombre y Apellido**:  
-  - Catalina Aránguiz  
+- **Nombre y Apellido**: 
   - Maykol Medrano  
+  - Catalina Aránguiz  
+
 - **Usuario de GitHub**:  
-  - caranguizc  
   - MaykolMedrano
+  - caranguizc  
 
