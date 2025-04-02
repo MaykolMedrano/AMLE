@@ -7,7 +7,7 @@
 
 ## Presentación del Trabajo
 
-Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en la resolución de de problemas de limpieza y manejor de datos en Python ha sido desarrollado y presentado por:
+Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en la resolución de de problemas de Exploratory data analysis (EDA) en Python ha sido desarrollado y presentado por:
 
 - **Maykol Medrano**  
 - **Catalina Aránguiz**  
