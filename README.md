@@ -1,8 +1,16 @@
-
 # EAE3709: APLICACIONES DE MACHINE LEARNING EN ECONOMÍA  
 **1er Semestre 2025**  
 **Instituto de Economía**  
 **Pontificia Universidad Católica de Chile**  
+
+---
+
+## Presentación del Trabajo
+
+Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en la aplicación de diferentes metodologías de Machine Learning para analizar y comprender datos económicos y demográficos a nivel internacional.  
+El trabajo ha sido desarrollado y presentado por:
+- **Catalina Aránguiz**  
+- **Maykol Medrano**  
 
 ---
 
@@ -20,7 +28,9 @@
 
 ### Este repositorio
 
-Este repositorio corresponde a la **entrega del trabajo (Tarea 1)** para el curso **EAE3709**. Aquí encontrarás el **notebook** con las soluciones a cada pregunta y el presente **README** con las instrucciones, formato y lineamientos de la tarea.
+En este repositorio encontrarás:  
+- Un **notebook** con las respuestas a cada pregunta.  
+- El presente **README**, que detalla las instrucciones, el formato y los lineamientos de la tarea.
 
 ---
 
@@ -53,6 +63,3 @@ Este repositorio corresponde a la **entrega del trabajo (Tarea 1)** para el curs
 - Si además se crean ramas (branches) y se hace **merge** entre ellas: **+0.5** en la nota final de la tarea.  
 - Solo se considerarán los archivos en la **rama principal** a la fecha de cierre.  
 - Se valora la **capacidad autodidacta**.
-
----
-
