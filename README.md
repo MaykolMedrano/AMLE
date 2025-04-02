@@ -42,6 +42,5 @@ En este repositorio encontrarás:
 
 - **Usuario de GitHub**:
   - MaykolMedrano
-
   - caranguizc
 
