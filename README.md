@@ -7,7 +7,7 @@
 
 ## Presentación del Trabajo
 
-Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en la resolución de de problemas de limpieza y manejor de datos en Python ha sido desarrollado y presentado por:
+Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en la resolución de de problemas de Exploratory data analysis (EDA) en Python ha sido desarrollado y presentado por:
 
 - **Maykol Medrano**  
 - **Catalina Aránguiz**  
@@ -29,8 +29,8 @@ Este proyecto corresponde a la **Tarea 1** del curso **EAE3709**. Se centra en l
 ### Este repositorio
 
 En este repositorio encontrarás:  
-- Un **notebook** con las respuestas a cada pregunta.  
-- El presente **README**, que detalla las instrucciones, el formato y los lineamientos de la tarea.
+- Un **notebook** denominado **AMLE 2025:Tarea 01.ipynb** donde se puede ver las respuestas a cada pregunta.  
+- El presente **README**, que detalla las integrantes, instrucciones, el formato y los lineamientos de la tarea.
 
 ---
 
