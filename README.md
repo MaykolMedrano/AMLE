@@ -17,8 +17,8 @@
   - Oscar Herrera G.  
 
 - **Estudiantes**  
-  - Catalina Aránguiz  
-  - Maykol Medrano  
+  - Catalina Aránguiz [Github usemame]: caranguizc
+  - Maykol Medrano    [Github usemame]: MaykolMedrano
 
 ---
 
