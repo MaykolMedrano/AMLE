@@ -17,8 +17,8 @@
   - Oscar Herrera G.  
 
 - **Estudiantes**  
-  - Catalina Aránguiz  
-  - Maykol Medrano  
+  - Catalina Aránguiz **Github usemame**:  [caranguizc](https://github.com/caranguizc)
+  - Maykol Medrano    **Github usemame**:  [MaykolMedrano](https://github.com/MaykolMedrano)
 
 ---
 
@@ -85,9 +85,9 @@ Esta **Tarea 1** se centra en el **análisis exploratorio de datos (EDA)**, trab
 ## 5. Conclusiones Generales
 
 - **PIB per cápita** suele asociarse de manera positiva con el **acceso a tecnología** (teléfonos per cápita) y la **alfabetización**, mientras que presenta correlaciones negativas con tasas de natalidad y mortalidad infantil.  
-- Al analizar **PIB total**, otras variables como la **superficie agraria** o la **industria** muestran más relevancia que en el PIB per cápita.  
+- Al analizar **PIB ($)**, otras variables como la **Población**, **Teléfonos per cápita** o el **Area** muestran más relevancia que en el PIB per cápita.  
 - La **desigualdad económica** (Índice de Gini) guarda relaciones diversas con las variables económicas; ciertos países con alto PIB pueden mostrar altos niveles de desigualdad.  
-- En emisiones de CO₂, países industrializados (EE.UU., China, Alemania, etc.) presentan tendencias de **aumento** a lo largo del tiempo, con disrupciones en años de crisis.  
+- En emisiones de CO₂, países industrializados (EE.UU., China, Alemania, etc.) presentan tendencias de **aumento** a lo largo del tiempo, con disrupciones en años de crisis, exceptuando a Alemania.  
 - La **fusión de datos** de múltiples fuentes permite comprender de manera más integral la relación entre desarrollo económico, desigualdad y sostenibilidad medioambiental.
 
 ---
