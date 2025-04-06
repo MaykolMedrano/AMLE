@@ -17,8 +17,8 @@
   - Oscar Herrera G.
 
 - **Estudiantes**
-  - Catalina Aránguiz **Github**:  [caranguizc](https://github.com/caranguizc)
-  - Maykol Medrano    **Github**:  [MaykolMedrano](https://github.com/MaykolMedrano)
+  - Catalina Aránguiz | **Github**:  [caranguizc](https://github.com/caranguizc)
+  - Maykol Medrano    | **Github**:  [MaykolMedrano](https://github.com/MaykolMedrano)
 
 ---
 
