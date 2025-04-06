@@ -94,7 +94,7 @@ Esta **Tarea 1** se centra en el **análisis exploratorio de datos (EDA)**, trab
 
 ## 6. Estructura de Archivos y Uso
 
-- `Tarea_1.ipynb`: Archivo principal que contiene la resolución paso a paso, con sus explicaciones y visualizaciones.
+- `AMLE-TAREA-01.ipynb`: Archivo principal que contiene la resolución paso a paso, con sus explicaciones y visualizaciones.
 - `README.md`: Explica el contexto de la tarea, su objetivo y conclusiones centrales.
 
 ---
