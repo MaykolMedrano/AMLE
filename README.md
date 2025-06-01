@@ -11,19 +11,29 @@
 ## Integrantes del Equipo
 
   - **Profesor**
-
       - Joaquín Pérez Lapillo
-
   - **Ayudantes**
-
       - Luis García B.
       - Sebastián Hernández B.
       - Oscar Herrera G.
-
   - **Estudiantes**
-
       - Catalina Aránguiz | **Github**: [caranguizc](https://github.com/caranguizc)
       - Maykol Medrano | **Github**: [MaykolMedrano](https://github.com/MaykolMedrano)
+
+-----
+
+## Índice
+
+  - [Descripción del Repositorio](https://www.google.com/search?q=%23descripci%C3%B3n-del-repositorio)
+  - [Tarea 1: Análisis Exploratorio de Datos (EDA)](https://www.google.com/search?q=%23tarea-1-an%C3%A1lisis-exploratorio-de-datos-eda-de-indicadores-socioecon%C3%B3micos)
+      - [Objetivos de la Tarea 1](https://www.google.com/search?q=%23objetivos)
+      - [Fuentes de Datos](https://www.google.com/search?q=%23fuentes-de-datos)
+      - [Conclusiones Principales](https://www.google.com/search?q=%23conclusiones-principales)
+      - [Archivos de la Tarea 1](https://www.google.com/search?q=%23archivos)
+  - [Tarea 2: Modelos de Clasificación y Clustering](https://www.google.com/search?q=%23tarea-2-modelos-de-clasificaci%C3%B3n-y-clustering)
+      - [Parte A: Clasificación - Predicción de Suscripción a Depósitos](https://www.google.com/search?q=%23parte-a-clasificaci%C3%B3n---predicci%C3%B3n-de-suscripci%C3%B3n-a-dep%C3%B3sitos-a-plazo)
+      - [Parte B: Clustering con K-Means & PCA - Perfiles de Exportación](https://www.google.com/search?q=%23parte-b-clustering-con-k-means--pca---perfiles-de-exportaci%C3%B3n-de-pa%C3%ADses)
+      - [Archivos de la Tarea 2](https://www.google.com/search?q=%23archivos-1)
 
 -----
 
@@ -37,7 +47,7 @@ Este repositorio contiene las soluciones para las tareas del curso **Aplicacione
 
 Esta tarea se enfoca en el **análisis exploratorio de datos (EDA)**, integrando información económica, demográfica, de desigualdad y medioambiental para obtener una visión completa de las dinámicas globales.
 
-### 🎯 Objetivos
+### Objetivos
 
   - **Importar y limpiar** datasets de diversas fuentes, manejando valores faltantes y estandarizando nombres de países.
   - **Analizar la distribución** de variables clave como el PIB per cápita, alfabetización y tasas de natalidad.
@@ -45,20 +55,20 @@ Esta tarea se enfoca en el **análisis exploratorio de datos (EDA)**, integrando
   - **Integrar datos** del Índice de Gini y emisiones de CO₂ para enriquecer el análisis.
   - **Evaluar el impacto** de crisis globales (Subprime 2008, COVID-19) en indicadores medioambientales.
 
-### 💾 Fuentes de Datos
+### Fuentes de Datos
 
 1.  **Dataset Económico-Demográfico (2007)**: [Repositorio en GitHub](https://raw.githubusercontent.com/lfgarcia-1/EAE3709-1-2025/refs/heads/main/economic_dataset.csv)
 2.  **Índice de Gini**: [Repositorio en GitHub](https://raw.githubusercontent.com/datasets/gini-index/refs/heads/main/data/gini-index.csv)
 3.  **Emisiones de CO₂ por Nación**: [Repositorio en GitHub](https://raw.githubusercontent.com/datasets/co2-fossil-by-nation/refs/heads/main/data/fossil-fuel-co2-emissions-by-nation.csv)
 
-### 📈 Conclusiones Principales
+### Conclusiones Principales
 
   - El **PIB per cápita** se correlaciona positivamente con el acceso a tecnología y la alfabetización, y negativamente con la natalidad y mortalidad infantil.
   - Variables como la **Población** y el **Área** son más relevantes para explicar el PIB total que el PIB per cápita.
   - La **desigualdad (Gini)** muestra relaciones complejas; países con alto PIB pueden tener también alta desigualdad.
   - Las **emisiones de CO₂** de países industrializados tienden a aumentar, con caídas visibles durante crisis económicas globales.
 
-### 📁 Archivos
+### Archivos
 
   - `AMLE-TAREA-01.ipynb`: Notebook con el código, análisis detallado y visualizaciones.
   - `README.md`: Este archivo.
@@ -81,7 +91,7 @@ Esta tarea se divide en dos partes: la construcción de un modelo de **clasifica
   - **Objetivo**: Aplicar **K-Means** para encontrar clusters de países y usar **Análisis de Componentes Principales (PCA)** para identificar las variables de exportación más relevantes que definen estos grupos. Se utilizan datos del año 2023.
   - **Dataset**: Se utiliza una base de datos del Banco Mundial y el Trade Analysis Information System, disponible en [este link](https://www.google.com/search?q=https://raw.githubusercontent.com/olherreragz/EAE3709-2025-1/refs/heads/main/T2_data/Data.csv). Incluye indicadores como crecimiento del PIB, porcentaje de exportaciones de alta tecnología, combustibles, manufacturas, etc.
 
-### 📁 Archivos
+### Archivos
 
   - `AMLE-TAREA-02.ipynb`: Notebook con la implementación de los modelos de clasificación y los algoritmos de K-Means y PCA.
   - `README.md`: Este archivo.
