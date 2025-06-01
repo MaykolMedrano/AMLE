@@ -1,104 +1,87 @@
+-----
 
-# Tarea 1: EAE3709 - Aplicaciones de Machine Learning en Economía
+# EAE3709 - Aplicaciones de Machine Learning en Economía
+
 **Instituto de Economía**
 **Pontificia Universidad Católica de Chile**
 **1er Semestre 2025**
 
----
+-----
 
-## Presentación
+## Integrantes del Equipo
 
-- **Profesor**
-  - Joaquín Pérez Lapillo
+  - **Profesor**
 
-- **Ayudantes**
-  - Luis García B.
-  - Sebastián Hernández B.
-  - Oscar Herrera G.
+      - Joaquín Pérez Lapillo
 
-- **Estudiantes**
-  - Catalina Aránguiz | **Github**:  [caranguizc](https://github.com/caranguizc)
-  - Maykol Medrano    | **Github**:  [MaykolMedrano](https://github.com/MaykolMedrano)
+  - **Ayudantes**
 
----
+      - Luis García B.
+      - Sebastián Hernández B.
+      - Oscar Herrera G.
 
-## 1. Introducción
+  - **Estudiantes**
 
-Esta **Tarea 1** se centra en el **análisis exploratorio de datos (EDA)**, trabajando con información económica, demográfica y de desarrollo humano de múltiples fuentes. A lo largo del proceso, se integran también datos de desigualdad (Índice de Gini) y de emisiones de CO₂ por país, buscando una visión más amplia sobre la relación entre crecimiento económico, desigualdad y factores medioambientales.
+      - Catalina Aránguiz | **Github**: [caranguizc](https://github.com/caranguizc)
+      - Maykol Medrano | **Github**: [MaykolMedrano](https://github.com/MaykolMedrano)
 
----
+-----
 
-## 2. Objetivos de la Tarea
+## Descripción del Repositorio
 
-- **Importar y limpiar** diversos datasets, formateando adecuadamente las columnas y resolviendo inconsistencias en los nombres de países.
-- **Analizar** la distribución de variables clave (ej. PIB per cápita, tasa de natalidad, tasa de mortalidad infantil, etc.) y detectar valores atípicos (outliers).
-- **Estudiar correlaciones** entre variables socioeconómicas y la variable objetivo (PIB per cápita o PIB agregado).
-- **Integrar** información de múltiples fuentes (Índice de Gini y emisiones de CO₂) mediante uniones (merges) basadas en “año” y “nombre de país”.
-- **Comparar** cómo distintos indicadores (p.ej., tasa de crecimiento de emisiones de CO₂) reaccionan a eventos globales como la crisis subprime y la crisis del COVID-19.
+Este repositorio contiene las soluciones para las tareas del curso **Aplicaciones de Machine Learning en Economía**. Cada tarea aborda diferentes técnicas y problemas, desde el análisis exploratorio y la integración de datos hasta la construcción de modelos de clasificación y clustering.
 
----
+-----
 
-## 3. Estructura de la Tarea
+## Tarea 1: Análisis Exploratorio de Datos (EDA) de Indicadores Socioeconómicos
 
-1. **Carga y Limpieza de Datos**
-   - Importar los datasets desde repositorios de GitHub.
-   - Formatear columnas (tipos de datos, fechas, etc.).
-   - Eliminar o imputar valores faltantes (NaN) con criterios justificados (p.ej., media o mediana por región).
+Esta tarea se enfoca en el **análisis exploratorio de datos (EDA)**, integrando información económica, demográfica, de desigualdad y medioambiental para obtener una visión completa de las dinámicas globales.
 
-2. **EDA Inicial (Dataset Económico-Demográfico)**
-   - Cálculo de estadísticas descriptivas (media, mediana, desviación estándar) para variables como `Population`, `GDP ($ per capita)`, `Literacy (%)`, etc.
-   - Visualización de distribuciones (KDE plots, histogramas, boxplots) y detección de outliers.
-   - Análisis de correlaciones (absolute correlation ranking) para entender qué factores inciden más en el PIB per cápita y en el PIB total.
+### 🎯 Objetivos
 
-3. **Integración del Índice de Gini**
-   - Limpieza de nombres de países y conversión de las columnas de año.
-   - Mapeo de nombres inconsistentes para poder hacer un **INNER JOIN**.
-   - Análisis de correlaciones entre el Índice de Gini y variables socioeconómicas claves, discutiendo hallazgos y sorpresas.
+  - **Importar y limpiar** datasets de diversas fuentes, manejando valores faltantes y estandarizando nombres de países.
+  - **Analizar la distribución** de variables clave como el PIB per cápita, alfabetización y tasas de natalidad.
+  - **Estudiar correlaciones** entre indicadores socioeconómicos y el desarrollo económico.
+  - **Integrar datos** del Índice de Gini y emisiones de CO₂ para enriquecer el análisis.
+  - **Evaluar el impacto** de crisis globales (Subprime 2008, COVID-19) en indicadores medioambientales.
 
-4. **Integración de Emisiones de CO₂**
-   - Uso de un tercer dataset que detalla emisiones totales y por tipo de combustible (solid, liquid, gas, cement, etc.).
-   - Creación y visualización de **series de tiempo** para varios países destacados (EE.UU., China, Alemania...).
-   - Cálculo de tasas de crecimiento (pct change) y desviaciones respecto al promedio para estudiar el comportamiento en periodos de crisis (2007-2010 y 2017-2020).
+### 💾 Fuentes de Datos
 
-5. **Merge Final y Heatmap**
-   - Unión de los datos anteriores en un único dataframe “final” (para 2007).
-   - Generación de un **heatmap** de correlaciones con un énfasis en la variable de emisiones totales de CO₂ (`Total`).
-   - Interpretación sobre qué variables económicas, demográficas y de desarrollo humano están más relacionadas con la contaminación.
+1.  **Dataset Económico-Demográfico (2007)**: [Repositorio en GitHub](https://raw.githubusercontent.com/lfgarcia-1/EAE3709-1-2025/refs/heads/main/economic_dataset.csv)
+2.  **Índice de Gini**: [Repositorio en GitHub](https://raw.githubusercontent.com/datasets/gini-index/refs/heads/main/data/gini-index.csv)
+3.  **Emisiones de CO₂ por Nación**: [Repositorio en GitHub](https://raw.githubusercontent.com/datasets/co2-fossil-by-nation/refs/heads/main/data/fossil-fuel-co2-emissions-by-nation.csv)
 
----
+### 📈 Conclusiones Principales
 
-## 4. Fuentes de Datos
+  - El **PIB per cápita** se correlaciona positivamente con el acceso a tecnología y la alfabetización, y negativamente con la natalidad y mortalidad infantil.
+  - Variables como la **Población** y el **Área** son más relevantes para explicar el PIB total que el PIB per cápita.
+  - La **desigualdad (Gini)** muestra relaciones complejas; países con alto PIB pueden tener también alta desigualdad.
+  - Las **emisiones de CO₂** de países industrializados tienden a aumentar, con caídas visibles durante crisis económicas globales.
 
-1. **Dataset Económico-Demográfico (2007)**
-   - Repositorio en [GitHub](https://raw.githubusercontent.com/lfgarcia-1/EAE3709-1-2025/refs/heads/main/economic_dataset.csv).
+### 📁 Archivos
 
-2. **Índice de Gini**
-   - Datos anuales sobre la desigualdad de ingresos a nivel de cada país.
-   - Repositorio en [GitHub](https://raw.githubusercontent.com/datasets/gini-index/refs/heads/main/data/gini-index.csv).
+  - `AMLE-TAREA-01.ipynb`: Notebook con el código, análisis detallado y visualizaciones.
+  - `README.md`: Este archivo.
 
-3. **Emisiones de CO₂**
-   - Datos de emisiones totales y por combustible fósil, además de variables como `Per Capita`, `Bunker fuels`, etc.
-   - Repositorio en [GitHub](https://raw.githubusercontent.com/datasets/co2-fossil-by-nation/refs/heads/main/data/fossil-fuel-co2-emissions-by-nation.csv).
+-----
 
----
+## Tarea 2: Modelos de Clasificación y Clustering
 
-## 5. Conclusiones Generales
+Esta tarea se divide en dos partes: la construcción de un modelo de **clasificación** para un problema de marketing bancario y un análisis de **clustering** para agrupar países según su perfil de exportación.
 
-- **PIB per cápita** suele asociarse de manera positiva con el **acceso a tecnología** (teléfonos per cápita) y la **alfabetización**, mientras que presenta correlaciones negativas con tasas de natalidad y mortalidad infantil.
-- Al analizar **PIB ($)**, otras variables como la **Población**, **Teléfonos per cápita** o el **Area** muestran más relevancia que en el PIB per cápita.
-- La **desigualdad económica** (Índice de Gini) guarda relaciones diversas con las variables económicas; ciertos países con alto PIB pueden mostrar altos niveles de desigualdad.
-- En emisiones de CO₂, países industrializados (EE.UU., China, Alemania, etc.) presentan tendencias de **aumento** a lo largo del tiempo, con disrupciones en años de crisis, exceptuando a Alemania.
-- La **fusión de datos** de múltiples fuentes permite comprender de manera más integral la relación entre desarrollo económico, desigualdad y sostenibilidad medioambiental.
+### Parte A: Clasificación - Predicción de Suscripción a Depósitos a Plazo
 
----
+  - **Problema**: Predecir si un cliente de un banco portugués suscribirá un depósito a plazo como resultado de una campaña de marketing telefónico.
+  - **Objetivo**: Desarrollar un modelo de clasificación binaria (`sí/no`) que sea realista y predictivo, prestando especial atención a la ingeniería de características y la evaluación de modelos.
+  - **Dataset**: Los datos provienen del [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing) e incluyen atributos del cliente (edad, trabajo, educación) e información de la campaña (tipo de contacto, duración de la llamada).
 
-## 6. Estructura de Archivos y Uso
+### Parte B: Clustering con K-Means & PCA - Perfiles de Exportación de Países
 
-- `AMLE-TAREA-01.ipynb`: Archivo principal que contiene la resolución paso a paso, con sus explicaciones y visualizaciones.
-- `README.md`: Explica el contexto de la tarea, su objetivo y conclusiones centrales.
+  - **Problema**: Ante una guerra comercial, ¿qué países podrían sufrir consecuencias similares? El objetivo es identificar grupos de países con perfiles de exportación parecidos.
+  - **Objetivo**: Aplicar **K-Means** para encontrar clusters de países y usar **Análisis de Componentes Principales (PCA)** para identificar las variables de exportación más relevantes que definen estos grupos. Se utilizan datos del año 2023.
+  - **Dataset**: Se utiliza una base de datos del Banco Mundial y el Trade Analysis Information System, disponible en [este link](https://www.google.com/search?q=https://raw.githubusercontent.com/olherreragz/EAE3709-2025-1/refs/heads/main/T2_data/Data.csv). Incluye indicadores como crecimiento del PIB, porcentaje de exportaciones de alta tecnología, combustibles, manufacturas, etc.
 
----
+### 📁 Archivos
 
-¡Gracias por leer este README!
-Para más detalles, revisa el **notebook**, donde se profundiza en cada paso descrito.
-
+  - `AMLE-TAREA-02.ipynb`: Notebook con la implementación de los modelos de clasificación y los algoritmos de K-Means y PCA.
+  - `README.md`: Este archivo.
